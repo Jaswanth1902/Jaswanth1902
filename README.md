@@ -22,7 +22,7 @@ I believe software should be fast, accessible, and respectful of your machine's 
 
 - 🏝️ **[Notch](https://github.com/Jaswanth1902/Notch)** — *Why should macOS have all the sleek ambient desktop widgets while Windows users are stuck with 200MB Electron wrappers?* Built a native, bezel-flush Dynamic Island in PowerShell/WPF that uses **0% idle CPU** and `<25MB RAM`.
 - 🎓 **[-Academic-ideation-platform](https://github.com/Jaswanth1902/-Academic-ideation-platform)** — *Why should students and researchers pay for cloud API tokens just to brainstorm paper ideas?* Built an air-gapped, self-hosted research ideation engine using local Ollama models.
-- 🧠 **[Omnia-codebase-memory](https://github.com/Jaswanth1902/Omnia-codebase-memory)** — *Why should coding assistants burn huge context windows grepping files?* Built a deterministic AST symbol memory MCP server delivering instant <10ms code navigation.
+- 🗺️ **[Cartograph](https://github.com/Jaswanth1902/Omnia-codebase-memory)** — *Why should coding assistants burn huge context windows grepping files?* Built a deterministic AST codebase mapmaker and memory MCP server delivering instant <10ms code navigation.
 
 ---
 
@@ -32,10 +32,7 @@ I believe software should be fast, accessible, and respectful of your machine's 
 | :--- | :--- | :--- | :--- |
 | 🏝️ **[Notch](https://github.com/Jaswanth1902/Notch)** | Ambient status HUD without focus stealing | 0% idle CPU, <25MB RAM, native Windows 11 feel | PowerShell, WPF, Win32 C# |
 | 🎓 **[-Academic-ideation-platform](https://github.com/Jaswanth1902/-Academic-ideation-platform)** | Literature grounding & paper brainstorming | 100% offline & free with local Ollama models | React 18, Vite, Python, Ollama |
-| 🧠 **[Omnia-codebase-memory](https://github.com/Jaswanth1902/Omnia-codebase-memory)** | Fast codebase symbol retrieval for AI tools | Sub-10ms AST parsing, zero prompt token waste | Python, MCP, AST, Vector DB |
-| 🔐 **[SecureX](https://github.com/Jaswanth1902/SecureX)** | Personal credential and privacy protection | End-to-end encrypted local vault | Python, Cryptography, SQLite |
-| 🤖 **[Autism_Screening_Agent](https://github.com/Jaswanth1902/Autism_Screening_Agent)** | Accessible behavioral screening assistance | Evidence-based interactive clinical pipeline | Python, Gemini API, Streamlit |
-| ⚡ **[DAA_EL](https://github.com/Jaswanth1902/DAA_EL)** | Visualizing complex computational geometry | Delaunay triangulation with real-time Web Workers | JavaScript, Web Workers, Canvas |
+| 🗺️ **[Cartograph](https://github.com/Jaswanth1902/Omnia-codebase-memory)** | Deterministic codebase mapping & AST memory | Sub-10ms AST parsing, >90% token savings | Python, MCP, AST, SQLite FTS5 |
 
 ---
 
