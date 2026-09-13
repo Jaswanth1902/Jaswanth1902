@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/atelier_profile_banner.svg" alt="Jaswanth Atelier Banner" width="100%" />
+</p>
+
 # Hi, I'm Jaswanth 👋
 
 <p align="left">
