@@ -5,38 +5,36 @@
 # Hi, I'm Jaswanth 👋
 
 <p align="left">
-  <a href="https://github.com/Jaswanth1902"><img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=19&duration=3000&pause=1000&color=C5A059&width=750&lines=Creative+Thinker+%E2%80%A2+CS+Problem+Solver+%E2%80%A2+Algorithm+Designer;Open-Source+Contributor+%E2%80%A2+Knowledge+Sharing;Creator+of+Notch+(Native+Dynamic+Island+for+Windows+11);Architect+of+Cartograph+(AST+MCP+Codebase+Mapmaker);Author+of+AI_Novel_Writer+(1%2C275-Node+Literary+Graph)" alt="Typing SVG" /></a>
+  <a href="https://github.com/Jaswanth1902"><img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=19&duration=3000&pause=1000&color=C5A059&width=750&lines=Systems+%26+AI+Engineer+%E2%80%A2+C%2B%2B+%26+Python+Primitives;Creator+of+Notch+(Native+Dynamic+Island+for+Windows+11);Architect+of+Cartograph+(AST+MCP+Codebase+Mapmaker);Author+of+DWEL+(Agentic+Cycle+Detection+%26+Token+Optimization);Designer+of+mem-shred+(Cryptographic+RAM+Sanitizer)" alt="Typing SVG" /></a>
 </p>
 
-> **Creative Thinker • CS Problem Solver • Algorithm Designer • Open-Source Contributor**  
-> Almost everything I know about computer science, software engineering, and systems was taught to me by the global open-source community. Now, I'm taking my first humble steps into giving back — building thoughtful, lightweight tools aimed at improving everyday Quality of Life (QOL) for developers and daily computer users.
+> **Systems & AI Engineer • Low-Level Runtimes • Autonomous Agent Infrastructure • Open-Source Builder**  
+> I engineer high-performance local runtimes, agent execution hypervisors, and cryptographic memory primitives. Anchored in zero-overhead systems engineering, every tool is designed from first principles: deterministic latency, strict memory safety, and zero external bloat.
 
 <p align="left">
   <a href="https://github.com/Jaswanth1902"><img src="https://img.shields.io/github/followers/Jaswanth1902?label=Followers&style=flat-square&color=C5A059" alt="GitHub Followers"></a>
-  <a href="https://github.com/Jaswanth1902?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-19%20Repositories-10B981?style=flat-square" alt="Repositories"></a>
+  <a href="https://github.com/Jaswanth1902?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-22%20Repositories-10B981?style=flat-square" alt="Repositories"></a>
   <a href="mailto:jaswanthreddy1537@gmail.com"><img src="https://img.shields.io/badge/Contact-Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://www.linkedin.com/in/kannali-sai-jaswanth-reddy-aa3678337/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
 ---
 
-## 💡 Why I Build: Improving Everyday QOL
-
-I believe software should be fast, accessible, and respectful of your machine's hardware. Too many modern desktop and AI tools feel bloated, complicated, or locked behind expensive subscriptions. My work is anchored by **three sovereign flagships**, each built from first principles to solve a concrete everyday friction:
+## 🏛️ The 4 Sovereign Flagships
 
 ```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                              THE 3 SOVEREIGN FLAGSHIPS                                 │
-├──────────────────────────┬─────────────────────────────┬───────────────────────────────┤
-│          NOTCH           │         CARTOGRAPH          │        AI NOVEL WRITER        │
-│   (Native Desktop HUD)   │     (AST Memory Engine)     │     (Creative Intelligence)   │
-├──────────────────────────┼─────────────────────────────┼───────────────────────────────┤
-│ • Win11 Dynamic Island   │ • Zero-dependency MCP server│ • 1,275-node SQLite graph     │
-│ • 0.0% Idle CPU          │ • Cuts tokens by >90%       │ • 100 master authors lineage  │
-│ • <25 MB RAM consumption │ • Sub-10ms query latency    │ • Gardner psychic distance    │
-│ • Shift+Enter approval   │ • Standard library AST      │ • Automated AST quality gates │
-│ • PowerShell / Win32 C#  │ • Python / SQLite WAL       │ • Python / SQLite / NetworkX  │
-└──────────────────────────┴─────────────────────────────┴───────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                               THE 4 SOVEREIGN FLAGSHIPS                                                │
+├──────────────────────────┬─────────────────────────────┬───────────────────────────────┬───────────────────────────────┤
+│          NOTCH           │         CARTOGRAPH          │             DWEL              │           MEM-SHRED           │
+│   (Native Desktop HUD)   │     (AST Memory Engine)     │     (Agent Loop Engine)       │    (Cryptographic Sanitizer)  │
+├──────────────────────────┼─────────────────────────────┼───────────────────────────────┼───────────────────────────────┤
+│ • Win11 Dynamic Island   │ • Zero-dependency MCP server│ • Directed graph cycle engine │ • 3-pass DoD 5220.22-M shred  │
+│ • 0.0% Idle CPU          │ • Cuts tokens by >90%       │ • Cuts token burn by 42%      │ • Dead Store Elimination safe │
+│ • <25 MB RAM consumption │ • Sub-10ms query latency    │ • Sub-1ms action fingerprint  │ • C++17 native & Python ctypes│
+│ • Shift+Enter approval   │ • Standard library AST      │ • Trajectory loop break       │ • Zero RAM remanence (Cold-Bt)│
+│ • PowerShell / Win32 C#  │ • Python / SQLite WAL       │ • Python / PyPI standalone    │ • Win32 / Linux explicit_bzero│
+└──────────────────────────┴─────────────────────────────┴───────────────────────────────┴───────────────────────────────┘
 ```
 
 ### 🏝️ 1. [Notch](https://github.com/Jaswanth1902/Notch) — Native Windows 11 Dynamic Island & Agent HUD
@@ -44,43 +42,53 @@ I believe software should be fast, accessible, and respectful of your machine's 
 - **The Problem**: Desktop agent indicators either hijack user focus or sit hidden in the taskbar notification tray.
 - **The Solution**: An ambient, bezel-flush Dynamic Island built natively in PowerShell, WPF, and Win32 C#.
 - **Performance**: **0% idle CPU** and `<25MB RAM`, with a global `Shift+Enter` system hook allowing users to approve autonomous tool executions without window focus changes.
+- **Tags**: `desktop-ui` • `dynamic-island` • `hud` • `python` • `realtime`
 
 ### 🗺️ 2. [Cartograph](https://github.com/Jaswanth1902/Omnia-codebase-memory) — AST Codebase Mapmaker & MCP Memory Server
 *Why should coding assistants burn 40% of their context windows grepping raw text files?*  
 - **The Problem**: File-search tools flood LLM prompts with redundant text chunks, increasing latency and triggering hallucinated imports.
 - **The Solution**: A zero-dependency Model Context Protocol (MCP) server that parses repository structures via native Python AST.
 - **Performance**: Returns deterministic symbol graphs in **under 10 milliseconds**, cutting agent token burn by **over 90%**.
+- **Tags**: `ast` • `codebase-memory` • `knowledge-graph` • `semantic-search` • `python`
 
-### 🖋️ 3. [AI_Novel_Writer](https://github.com/Jaswanth1902/AI_Novel_Writer) — Computational Literary Craftsmanship Engine
-*Why does generative AI fiction produce repetitive purple prose, filter verbs, and amnesiac narrative arcs?*  
-- **The Problem**: Autoregressive models lack structural pacing memory and drift into generic AI writing tropes.
-- **The Solution**: A 5-stage narrative simulation engine powered by a **1,275-node SQLite knowledge graph** mapping the stylistic DNA and pacing techniques of 100 master authors.
-- **Craftsmanship**: Features John Gardner psychic distance calibration and automated AST anti-slop gates that halt generation if filter verbs or cliches exceed thresholds.
+### ⚡ 3. [DWEL](https://github.com/Jaswanth1902/dwel) — Directed Walk & Execution-Loop Detector for LLM Agents
+*Why do autonomous AI agents repeatedly retry broken commands and exhaust context windows on infinite loops?*  
+- **The Problem**: Multi-turn agents lack execution cycle memory, getting trapped in non-progressing tool calls and draining API credits.
+- **The Solution**: A graph-based trajectory cycle interceptor using canonical action hashing and topological back-edge detection.
+- **Performance**: Intercepts non-progressing loops in **<1 millisecond**, slashing agent context burnage by **up to 42%**.
+- **Tags**: `llm-agents` • `agentic-ai` • `optimization` • `cycle-detection` • `token-budget`
+
+### 🔒 4. [mem-shred](https://github.com/Jaswanth1902/mem-shred) — Cryptographic Memory Sanitizer & Anti-Forensic RAM Scrubber
+*Why do sensitive private keys and decrypted payloads remain fully extractable in RAM long after deallocation?*  
+- **The Problem**: Standard `free()`, `delete`, and Python garbage collection do not zero memory, while compilers optimize away `memset` calls via Dead Store Elimination.
+- **The Solution**: A zero-overhead C++17 header and Python module enforcing hardware compiler barriers and 3-pass cryptographic overwrites (DoD 5220.22-M compliant).
+- **Security**: Mitigates physical cold-boot memory remanence and RAM forensic extraction with guaranteed zero plaintext leakage.
+- **Tags**: `cryptography` • `memory-safety` • `anti-forensics` • `zeroize` • `cpp` • `security`
 
 ---
 
 ## 🏛️ Open-Source Systems & Research Vault
 
-In addition to the three sovereign flagships, I maintain open-source implementations across low-level systems, clinical machine learning, and computational geometry:
+In addition to the four sovereign flagships, I maintain open-source implementations across low-level runtimes, clinical diagnostics, and computational geometry:
 
 | Repository | Focus Area | Technical Highlight | Tech Stack |
 | :--- | :--- | :--- | :--- |
 | 🎓 **[-Academic-ideation-platform](https://github.com/Jaswanth1902/-Academic-ideation-platform)** | Research Ideation | Semantic citation graph explorer with local Ollama models | React 18, Vite, Python, Ollama |
-| 🔐 **[SecureX](https://github.com/Jaswanth1902/SecureX)** | Applied Cryptography | Zero-knowledge AES-256-GCM vault with PBKDF2 key derivation | Python, Cryptography, SQLite |
 | 🤖 **[Autism_Screening_Agent](https://github.com/Jaswanth1902/Autism_Screening_Agent)** | Clinical Diagnostics | AQ-10 behavioral screening tree with SHAP explainability | Streamlit, Gemini API, ReportLab |
 | ⚡ **[DAA_EL](https://github.com/Jaswanth1902/DAA_EL)** | Computational Geometry | In-browser Delaunay image triangulation with 3D OBJ export | Vanilla JS, Web Workers, Canvas |
 | 🏥 **[Hospital-Database](https://github.com/Jaswanth1902/Hospital-Database)** | Database Architecture | 3NF relational clinical schema with ACID transaction isolation | PostgreSQL 14+, Node.js, Express |
 | 🧬 **[BIO-TECH](https://github.com/Jaswanth1902/BIO-TECH)** | Bioinformatics | Genomic FASTA sequence parser and CRISPR locus visualizer | Solidity, Web3.py, Flask, RAG |
 | ⚡ **[Queue-Drop](https://github.com/Jaswanth1902/Queue-Drop)** | Distributed Systems | Token-bucket rate limiting with dead-letter queue isolation | Python 3.10+, AsyncIO |
 | 🔨 **[Z_Forge](https://github.com/Jaswanth1902/Z_Forge)** | Systems Benchmarking | Dual C99 and Python LZW compression algorithm profiler | C99 Native, Python 3, ctypes |
+| 🖋️ **[AI_Novel_Writer](https://github.com/Jaswanth1902/AI_Novel_Writer)** | Computational Literature | 1,275-node literary style graph with Gardner psychic distance | Python, SQLite, NetworkX |
 
 ---
 
-## 🌱 Engineering & Design Philosophy
+## 🌱 Engineering Philosophy
 
-- **The Atelier Aesthetic Canvas**: Classical editorial typography (*Cinzel*, *Cormorant Garamond*), Renaissance Da Vinci conceptual linework, warm archival parchment, and burnished gold accents. Zero corporate neon gradients.
-- **Emil Kowalski Component Physics**: Tactile `:active` depression (`scale(0.97)`), organic materialization (`scale(0.95)` to `scale(1)`), custom cubic-bezier easing (`cubic-bezier(0.23, 1, 0.32, 1)`), and strict property targeting (zero `transition: all`).
-- **Open-Source Reciprocity**: The open-source community gave me the tools to learn computer science. Every repository I build is documented, reproducible, and released openly to help the next learner.
+- **Zero-Bloat Primitives**: Every system is engineered from first principles with zero unnecessary abstraction. Native APIs, standard library AST, and minimal dependencies over monolithic frameworks.
+- **Deterministic Latency**: Sub-10ms query ceilings across knowledge graphs, cycle detectors, and spatial overlays.
+- **Physical Memory Safety**: Cryptographic buffer sanitization, windowless desktop process execution (`CREATE_NO_WINDOW`), and non-blocking asynchronous event reactors.
 
 ---
 
@@ -97,7 +105,7 @@ In addition to the three sovereign flagships, I maintain open-source implementat
 
 ## 📬 Say Hello!
 
-I'm always open to ideas, feedback, and collaborating on systems engineering:
+I'm always open to discussing low-level systems, agentic architectures, and open-source tooling:
 - **Email**: [jaswanthreddy1537@gmail.com](mailto:jaswanthreddy1537@gmail.com)
-- **LinkedIn**: [Kannali Sai Jaswanth Reddy](https://www.linkedin.com/in/kannali-sai-jaswanth-reddy-aa3678337/)
+- **LinkedIn**: [linkedin.com/in/kannali-sai-jaswanth-reddy-aa3678337](https://www.linkedin.com/in/kannali-sai-jaswanth-reddy-aa3678337/)
 - **GitHub**: [github.com/Jaswanth1902](https://github.com/Jaswanth1902)
