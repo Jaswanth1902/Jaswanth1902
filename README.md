@@ -5,7 +5,7 @@
 # Hi, I'm Jaswanth 👋
 
 <p align="left">
-  <a href="https://github.com/Jaswanth1902"><img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=19&duration=3000&pause=1000&color=C5A059&width=750&lines=Systems+%26+AI+Engineer+%E2%80%A2+C%2B%2B+%26+Python+Primitives;Creator+of+Notch+(Native+Dynamic+Island+for+Windows+11);Architect+of+Cartograph+(AST+MCP+Codebase+Mapmaker);Author+of+DWEL+(Agentic+Cycle+Detection+%26+Token+Optimization);Designer+of+mem-shred+(Cryptographic+RAM+Sanitizer)" alt="Typing SVG" /></a>
+  <a href="https://github.com/Jaswanth1902"><img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=19&duration=3000&pause=1000&color=C5A059&width=750&lines=Systems+%26+AI+Engineer+%E2%80%A2+C%2B%2B+%26+Python+Primitives;Creator+of+Notch+(Native+Dynamic+Island+for+Windows+11);Architect+of+Cartograph+(AST+MCP+Codebase+Mapmaker);Author+of+DWEL+(Agentic+Cycle+Detection+%26+Token+Optimization);Designer+of+mem-shred+(Cryptographic+RAM+Sanitizer);Engineer+of+InstaFlow+(Direct+Social+Intelligence+Agent)" alt="Typing SVG" /></a>
 </p>
 
 > **Systems & AI Engineer • Low-Level Runtimes • Autonomous Agent Infrastructure • Open-Source Builder**  
@@ -13,28 +13,28 @@
 
 <p align="left">
   <a href="https://github.com/Jaswanth1902"><img src="https://img.shields.io/github/followers/Jaswanth1902?label=Followers&style=flat-square&color=C5A059" alt="GitHub Followers"></a>
-  <a href="https://github.com/Jaswanth1902?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-22%20Repositories-10B981?style=flat-square" alt="Repositories"></a>
+  <a href="https://github.com/Jaswanth1902?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-23%20Repositories-10B981?style=flat-square" alt="Repositories"></a>
   <a href="mailto:jaswanthreddy1537@gmail.com"><img src="https://img.shields.io/badge/Contact-Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://www.linkedin.com/in/kannali-sai-jaswanth-reddy-aa3678337/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
 ---
 
-## 🏛️ The 4 Sovereign Flagships
+## 🏛️ The 5 Sovereign Flagships
 
 ```
-┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                               THE 4 SOVEREIGN FLAGSHIPS                                                │
-├──────────────────────────┬─────────────────────────────┬───────────────────────────────┬───────────────────────────────┤
-│          NOTCH           │         CARTOGRAPH          │             DWEL              │           MEM-SHRED           │
-│   (Native Desktop HUD)   │     (AST Memory Engine)     │     (Agent Loop Engine)       │    (Cryptographic Sanitizer)  │
-├──────────────────────────┼─────────────────────────────┼───────────────────────────────┼───────────────────────────────┤
-│ • Win11 Dynamic Island   │ • Zero-dependency MCP server│ • Directed graph cycle engine │ • 3-pass DoD 5220.22-M shred  │
-│ • 0.0% Idle CPU          │ • Cuts tokens by >90%       │ • Cuts token burn by 42%      │ • Dead Store Elimination safe │
-│ • <25 MB RAM consumption │ • Sub-10ms query latency    │ • Sub-1ms action fingerprint  │ • C++17 native & Python ctypes│
-│ • Shift+Enter approval   │ • Standard library AST      │ • Trajectory loop break       │ • Zero RAM remanence (Cold-Bt)│
-│ • PowerShell / Win32 C#  │ • Python / SQLite WAL       │ • Python / PyPI standalone    │ • Win32 / Linux explicit_bzero│
-└──────────────────────────┴─────────────────────────────┴───────────────────────────────┴───────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                               THE 5 SOVEREIGN FLAGSHIPS                                                                │
+├──────────────────────────┬─────────────────────────────┬───────────────────────────────┬───────────────────────────────┬───────────────────────────────┤
+│          NOTCH           │         CARTOGRAPH          │             DWEL              │           MEM-SHRED           │           INSTAFLOW           │
+│   (Native Desktop HUD)   │     (AST Memory Engine)     │      (Agent Loop Engine)      │   (Cryptographic Sanitizer)   │  (Direct Intelligence Agent)  │
+├──────────────────────────┼─────────────────────────────┼───────────────────────────────┼───────────────────────────────┼───────────────────────────────┤
+│ • Win11 Dynamic Island   │ • Zero-dependency MCP server│ • Directed graph cycle engine │ • 3-pass DoD 5220.22-M shred  │ • Zero-SaaS direct automation │
+│ • 0.0% Idle CPU          │ • Cuts tokens by >90%       │ • Cuts token burn by 42%      │ • Dead Store Elimination safe │ • Sub-16ms command dispatch   │
+│ • <25 MB RAM consumption │ • Sub-10ms query latency    │ • Sub-1ms action fingerprint  │ • C++17 native & Python ctypes│ • <1s account lookup dorking  │
+│ • Shift+Enter approval   │ • Standard library AST      │ • Trajectory loop break       │ • Zero RAM remanence (Cold-Bt)│ • Interactive CLI simulator   │
+│ • PowerShell / Win32 C#  │ • Python / SQLite WAL       │ • Python / PyPI standalone    │ • Win32 / Linux explicit_bzero│ • Python 3.10+ / Web Direct   │
+└──────────────────────────┴─────────────────────────────┴───────────────────────────────┴───────────────────────────────┴───────────────────────────────┘
 ```
 
 ### 🏝️ 1. [Notch](https://github.com/Jaswanth1902/Notch) — Native Windows 11 Dynamic Island & Agent HUD
@@ -42,34 +42,41 @@
 - **The Problem**: Desktop agent indicators either hijack user focus or sit hidden in the taskbar notification tray.
 - **The Solution**: An ambient, bezel-flush Dynamic Island built natively in PowerShell, WPF, and Win32 C#.
 - **Performance**: **0% idle CPU** and `<25MB RAM`, with a global `Shift+Enter` system hook allowing users to approve autonomous tool executions without window focus changes.
-- **Tags**: `desktop-ui` • `dynamic-island` • `hud` • `python` • `realtime`
+- **Tags**: `desktop-ui` • `dynamic-island` • `hud` • `python` • `realtime` • `apache-2.0`
 
 ### 🗺️ 2. [Cartograph](https://github.com/Jaswanth1902/Omnia-codebase-memory) — AST Codebase Mapmaker & MCP Memory Server
 *Why should coding assistants burn 40% of their context windows grepping raw text files?*  
 - **The Problem**: File-search tools flood LLM prompts with redundant text chunks, increasing latency and triggering hallucinated imports.
 - **The Solution**: A zero-dependency Model Context Protocol (MCP) server that parses repository structures via native Python AST.
 - **Performance**: Returns deterministic symbol graphs in **under 10 milliseconds**, cutting agent token burn by **over 90%**.
-- **Tags**: `ast` • `codebase-memory` • `knowledge-graph` • `semantic-search` • `python`
+- **Tags**: `ast` • `codebase-memory` • `knowledge-graph` • `semantic-search` • `python` • `apache-2.0`
 
 ### ⚡ 3. [DWEL](https://github.com/Jaswanth1902/dwel) — Directed Walk & Execution-Loop Detector for LLM Agents
 *Why do autonomous AI agents repeatedly retry broken commands and exhaust context windows on infinite loops?*  
 - **The Problem**: Multi-turn agents lack execution cycle memory, getting trapped in non-progressing tool calls and draining API credits.
 - **The Solution**: A graph-based trajectory cycle interceptor using canonical action hashing and topological back-edge detection.
 - **Performance**: Intercepts non-progressing loops in **<1 millisecond**, slashing agent context burnage by **up to 42%**.
-- **Tags**: `llm-agents` • `agentic-ai` • `optimization` • `cycle-detection` • `token-budget`
+- **Tags**: `llm-agents` • `agentic-ai` • `optimization` • `cycle-detection` • `token-budget` • `apache-2.0`
 
 ### 🔒 4. [mem-shred](https://github.com/Jaswanth1902/mem-shred) — Cryptographic Memory Sanitizer & Anti-Forensic RAM Scrubber
 *Why do sensitive private keys and decrypted payloads remain fully extractable in RAM long after deallocation?*  
 - **The Problem**: Standard `free()`, `delete`, and Python garbage collection do not zero memory, while compilers optimize away `memset` calls via Dead Store Elimination.
 - **The Solution**: A zero-overhead C++17 header and Python module enforcing hardware compiler barriers and 3-pass cryptographic overwrites (DoD 5220.22-M compliant).
 - **Security**: Mitigates physical cold-boot memory remanence and RAM forensic extraction with guaranteed zero plaintext leakage.
-- **Tags**: `cryptography` • `memory-safety` • `anti-forensics` • `zeroize` • `cpp` • `security`
+- **Tags**: `cryptography` • `memory-safety` • `anti-forensics` • `zeroize` • `cpp` • `security` • `apache-2.0`
+
+### ⚡ 5. [InstaFlow](https://github.com/Jaswanth1902/InstaFlow) — Autonomous Instagram Direct & Lead Intelligence Agent
+*Why should creators and developers pay $50/month for ManyChat subscriptions and brittle cloud proxies just to send links and search accounts?*  
+- **The Problem**: Commercial DM automation requires broad access tokens, expensive monthly subscriptions, and cannot search creator accounts or parse tools from reels.
+- **The Solution**: A zero-dependency, local-first Instagram direct intelligence agent with sub-16ms dispatch and an interactive terminal simulator.
+- **Performance**: Dispatches automated lead magnets in **<16ms**, discovers creator profiles in **<1s**, and consumes **<25MB RAM** with zero external cloud dependencies.
+- **Tags**: `instagram` • `social-intelligence` • `lead-generation` • `automation` • `python` • `apache-2.0`
 
 ---
 
 ## 🏛️ Open-Source Systems & Research Vault
 
-In addition to the four sovereign flagships, I maintain open-source implementations across low-level runtimes, clinical diagnostics, and computational geometry:
+In addition to the five sovereign flagships, I maintain open-source implementations across low-level runtimes, clinical diagnostics, and computational geometry:
 
 | Repository | Focus Area | Technical Highlight | Tech Stack |
 | :--- | :--- | :--- | :--- |
