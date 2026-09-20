@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 580" width="100%" height="100%">
+  <defs>
+    <radialGradient id="matrixVignette" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#12100E" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#080707" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#040303" stop-opacity="1"/>
+    </radialGradient>
+
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F3DC9E"/>
+      <stop offset="50%" stop-color="#C5A059"/>
+      <stop offset="100%" stop-color="#9B7832"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161412" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0D0B0A" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <pattern id="cardGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#25211D" stroke-width="0.5" opacity="0.4" />
+    </pattern>
+
+    <style>
+      .serif-head { font-family: 'Cinzel', 'Playfair Display', 'Georgia', serif; font-weight: 700; letter-spacing: 2px; }
+      .serif-sub { font-family: 'Cormorant Garamond', 'Georgia', serif; font-style: italic; }
+      .mono-code { font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; }
+      .sans-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1100" height="580" fill="#040303"/>
+  <rect width="1100" height="580" fill="url(#matrixVignette)"/>
+  <rect width="1100" height="580" fill="url(#cardGrid)"/>
+
+  <!-- Outer Framing -->
+  <rect x="20" y="20" width="1060" height="540" fill="none" stroke="#C5A059" stroke-width="0.8" stroke-opacity="0.35"/>
+  <rect x="24" y="24" width="1052" height="532" fill="none" stroke="#C5A059" stroke-width="0.5" stroke-dasharray="4,6" stroke-opacity="0.2"/>
+  <circle cx="20" cy="20" r="3" fill="#C5A059"/>
+  <circle cx="1080" cy="20" r="3" fill="#C5A059"/>
+  <circle cx="20" cy="560" r="3" fill="#C5A059"/>
+  <circle cx="1080" cy="560" r="3" fill="#C5A059"/>
+
+  <!-- Header Section -->
+  <text x="550" y="55" text-anchor="middle" fill="url(#goldText)" class="serif-head" font-size="20">THE 6 SOVEREIGN FLAGSHIPS</text>
+  <text x="550" y="74" text-anchor="middle" fill="#8E857B" class="mono-code" font-size="10" letter-spacing="1">ZERO-DEPENDENCY RUNTIMES • DETERMINISTIC LATENCY • APACHE 2.0</text>
+  <line x1="420" y1="84" x2="680" y2="84" stroke="#C5A059" stroke-width="0.6" stroke-opacity="0.4"/>
+
+  <!-- ================= ROW 1 ================= -->
+
+  <!-- CARD 1: NOTCH -->
+  <g transform="translate(45, 105)">
+    <rect width="315" height="205" rx="8" fill="url(#cardGrad)" stroke="#C5A059" stroke-width="0.8" stroke-opacity="0.4"/>
+    <rect x="14" y="14" width="28" height="28" rx="6" fill="#1C1814" stroke="#C5A059" stroke-width="0.5"/>
+    <text x="28" y="33" text-anchor="middle" font-size="14">🏝️</text>
+    <text x="50" y="27" fill="#F5E8C8" class="serif-head" font-size="14">NOTCH</text>
+    <text x="50" y="40" fill="#9C9286" class="sans-text" font-size="10">Native Dynamic Island &amp; Agent HUD</text>
+
+    <line x1="14" y1="52" x2="301" y2="52" stroke="#2D2721" stroke-width="0.8"/>
+
+    <text x="16" y="74" fill="#E2DDD5" class="sans-text" font-size="11">• Bezel-flush Windows 11 Dynamic Island</text>
+    <text x="16" y="94" fill="#E2DDD5" class="sans-text" font-size="11">• 0.0% Idle CPU • &lt;25 MB RAM footprint</text>
+    <text x="16" y="114" fill="#E2DDD5" class="sans-text" font-size="11">• Global Shift+Enter tool approval hook</text>
+    <text x="16" y="134" fill="#E2DDD5" class="sans-text" font-size="11">• Zero focus stealing • Win32 C# / WPF</text>
+
+    <!-- Pills -->
+    <rect x="14" y="156" width="75" height="20" rx="4" fill="#221C16" stroke="#C5A059" stroke-width="0.5"/>
+    <text x="51" y="170" text-anchor="middle" fill="#EAC878" class="mono-code" font-size="9">Win11 WPF</text>
+    <rect x="95" y="156" width="60" height="20" rx="4" fill="#1A2218" stroke="#34D399" stroke-width="0.5"/>
+    <text x="125" y="170" text-anchor="middle" fill="#34D399" class="mono-code" font-size="9">0% CPU</text>
+    <rect x="161" y="156" width="65" height="20" rx="4" fill="#16202A" stroke="#38BDF8" stroke-width="0.5"/>
+    <text x="193" y="170" text-anchor="middle" fill="#38BDF8" class="mono-code" font-size="9">&lt;25MB</text>
+    <rect x="232" y="156" width="68" height="20" rx="4" fill="#1D1926" stroke="#A78BFA" stroke-width="0.5"/>
+    <text x="266" y="170" text-anchor="middle" fill="#C4B5FD" class="mono-code" font-size="9">Apache 2.0</text>
+  </g>
+
+  <!-- CARD 2: CARTOGRAPH -->
+  <g transform="translate(392, 105)">
+    <rect width="315" height="205" rx="8" fill="url(#cardGrad)" stroke="#C5A059" stroke-width="0.8" stroke-opacity="0.4"/>
+    <rect x="14" y="14" width="28" height="28" rx="6" fill="#1C1814" stroke="#C5A059" stroke-width="0.5"/>
+    <text x="28" y="33" text-anchor="middle" font-size="14">🗺️</text>
+    <text x="50" y="27" fill="#F5E8C8" class="serif-head" font-size="14">CARTOGRAPH</text>
+    <text x="50" y="40" fill="#9C9286" class="sans-text" font-size="10">AST Codebase Mapmaker &amp; MCP</text>
+
+    <line x1="14" y1="52" x2="301" y2="52" stroke="#2D2721" stroke-width="0.8"/>
+
+    <text x="16" y="74" fill="#E2DDD5" class="sans-text" font-size="11">• Standard library AST topology parser</text>
+    <text x="16" y="94" fill="#E2DDD5" class="sans-text" font-size="11">• Cuts agent context burn by &gt;90%</text>
+    <text x="16" y="114" fill="#E2DDD5" class="sans-text" font-size="11">• Sub-10ms symbol lookup latency</text>
+    <text x="16" y="134" fill="#E2DDD5" class="sans-text" font-size="11">• Zero vector hallucination • MCP Server</text>
+
+    <!-- Pills -->
+    <rect x="14" y="156" width="70" height="20" rx="4" fill="#221C16" stroke="#C5A059" stroke-width="0.5"/>
+    <text x="49" y="170" text-anchor="middle" fill="#EAC878" class="mono-code" font-size="9">MCP Std</text>
+    <rect x="90" y="156" width="68" height="20" rx="4" fill="#1A2218" stroke="#34D399" stroke-width="0.5"/>
+    <text x="124" y="170" text-anchor="middle" fill="#34D399" class="mono-code" font-size="9">&lt;10ms</text>
+    <rect x="164" y="156" width="62" height="20" rx="4" fill="#16202A" stroke="#38BDF8" stroke-width="0.5"/>
+    <text x="195" y="170" text-anchor="middle" fill="#38BDF8" class="mono-code" font-size="9">&gt;90% Cut</text>
+    <rect x="232" y="156" width="68" height="20" rx="4" fill="#1D1926" stroke="#A78BFA" stroke-width="0.5"/>
+    <text x="266" y="170" text-anchor="middle" fill="#C4B5FD" class="mono-code" font-size="9">Apache 2.0</text>
+  </g>
+
+  <!-- CARD 3: DWEL -->
+  <g transform="translate(740, 105)">
+    <rect width="315" height="205" rx="8" fill="url(#cardGrad)" stroke="#C5A059" stroke-width="0.8" stroke-opacity="0.4"/>
+    <rect x="14" y="14" width="28" height="28" rx="6" fill="#1C1814" stroke="#C5A059" stroke-width="0.5"/>
+    <text x="28" y="33" text-anchor="middle" font-size="14">⚡</text>
+    <text x="50" y="27" fill="#F5E8C8" class="serif-head" font-size="14">DWEL</text>
+    <text x="50" y="40" fill="#9C9286" class="sans-text" font-size="10">Agent Cycle Detection Engine</text>
+
+    <line x1="14" y1="52" x2="301" y2="52" stroke="#2D2721" stroke-width="0.8"/>
+
+    <text x="16" y="74" fill="#E2DDD5" class="sans-text" font-size="11">• Directed walk trajectory loop detection</text>
+    <text x="16" y="94" fill="#E2DDD5" class="sans-text" font-size="11">• Cuts agent context burn by up to 42%</text>
+    <text x="16" y="114" fill="#E2DDD5" class="sans-text" font-size="11">• Sub-1ms canonical action hashing</text>
+    <text x="16" y="134" fill="#E2DDD5" class="sans-text" font-size="11">• Topological back-edge interception</text>
+
+    <!-- Pills -->
+    <rect x="14" y="156" width="65" height="20" rx="4" fill="#221C16" stroke="#C5A059" stroke-width="0.5"/>
+    <text x="46" y="170" text-anchor="middle" fill="#EAC878" class="mono-code" font-size="9">Directed</text>
+    <rect x="85" y="156" width="70" height="20" rx="4" fill="#1A2218" stroke="#34D399" stroke-width="0.5"/>
+    <text x="120" y="170" text-anchor="middle" fill="#34D399" class="mono-code" font-size="9">&lt;1ms Cut</text>
+    <rect x="161" y="156" width="65" height="20" rx="4" fill="#16202A" stroke="#38BDF8" stroke-width="0.5"/>
+    <text x="193" y="170" text-anchor="middle" fill="#38BDF8" class="mono-code" font-size="9">42% Save</text>
+    <rect x="232" y="156" width="68" height="20" rx="4" fill="#1D1926" stroke="#A78BFA" stroke-width="0.5"/>
+    <text x="266" y="170" text-anchor="middle" fill="#C4B5FD" class="mono-code" font-size="9">Apache 2.0</text>
+  </g>
+
+  <!-- ================= ROW 2 ================= -->
+
+  <!-- CARD 4: MEM-SHRED -->
+  <g transform="translate(45, 330)">
+    <rect width="315" height="205" rx="8" fill="url(#cardGrad)" stroke="#C5A059" stroke-width="0.8" stroke-opacity="0.4"/>
+    <rect x="14" y="14" width="28" height="28" rx="6" fill="#1C1814" stroke="#C5A059" stroke-width="0.5"/>
+    <text x="28" y="33" text-anchor="middle" font-size="14">🔒</text>
+    <text x="50" y="27" fill="#F5E8C8" class="serif-head" font-size="14">MEM-SHRED</text>
+    <text x="50" y="40" fill="#9C9286" class="sans-text" font-size="10">Cryptographic RAM Zeroizer</text>
+
+    <line x1="14" y1="52" x2="301" y2="52" stroke="#2D2721" stroke-width="0.8"/>
+
+    <text x="16" y="74" fill="#E2DDD5" class="sans-text" font-size="11">• Deterministic 3-pass DoD 5220.22-M shred</text>
+    <text x="16" y="94" fill="#E2DDD5" class="sans-text" font-size="11">• Dead Store Elimination (DSE) safe</text>
+    <text x="16" y="114" fill="#E2DDD5" class="sans-text" font-size="11">• 0.08 µs multi-pass cache purge</text>
+    <text x="16" y="134" fill="#E2DDD5" class="sans-text" font-size="11">• C++20 Header-Only + Python ctypes</text>
+
+    <!-- Pills -->
+    <rect x="14" y="156" width="65" height="20" rx="4" fill="#221C16" stroke="#C5A059" stroke-width="0.5"/>
+    <text x="46" y="170" text-anchor="middle" fill="#EAC878" class="mono-code" font-size="9">C++20/Py</text>
+    <rect x="85" y="156" width="70" height="20" rx="4" fill="#1A2218" stroke="#34D399" stroke-width="0.5"/>
+    <text x="120" y="170" text-anchor="middle" fill="#34D399" class="mono-code" font-size="9">0.08 µs</text>
+    <rect x="161" y="156" width="65" height="20" rx="4" fill="#16202A" stroke="#38BDF8" stroke-width="0.5"/>
+    <text x="193" y="170" text-anchor="middle" fill="#38BDF8" class="mono-code" font-size="9">DoD 3-P</text>
+    <rect x="232" y="156" width="68" height="20" rx="4" fill="#1D1926" stroke="#A78BFA" stroke-width="0.5"/>
+    <text x="266" y="170" text-anchor="middle" fill="#C4B5FD" class="mono-code" font-size="9">Apache 2.0</text>
+  </g>
+
+  <!-- CARD 5: INSTAFLOW -->
+  <g transform="translate(392, 330)">
+    <rect width="315" height="205" rx="8" fill="url(#cardGrad)" stroke="#C5A059" stroke-width="0.8" stroke-opacity="0.4"/>
+    <rect x="14" y="14" width="28" height="28" rx="6" fill="#1C1814" stroke="#C5A059" stroke-width="0.5"/>
+    <text x="28" y="33" text-anchor="middle" font-size="14">⚡</text>
+    <text x="50" y="27" fill="#F5E8C8" class="serif-head" font-size="14">INSTAFLOW</text>
+    <text x="50" y="40" fill="#9C9286" class="sans-text" font-size="10">Direct Social Intelligence Agent</text>
+
+    <line x1="14" y1="52" x2="301" y2="52" stroke="#2D2721" stroke-width="0.8"/>
+
+    <text x="16" y="74" fill="#E2DDD5" class="sans-text" font-size="11">• Zero-SaaS native direct DM automation</text>
+    <text x="16" y="94" fill="#E2DDD5" class="sans-text" font-size="11">• Sub-16ms command dispatch latency</text>
+    <text x="16" y="114" fill="#E2DDD5" class="sans-text" font-size="11">• &lt;1s creator profile dorking discovery</text>
+    <text x="16" y="134" fill="#E2DDD5" class="sans-text" font-size="11">• Interactive terminal DM simulator</text>
+
+    <!-- Pills -->
+    <rect x="14" y="156" width="65" height="20" rx="4" fill="#221C16" stroke="#C5A059" stroke-width="0.5"/>
+    <text x="46" y="170" text-anchor="middle" fill="#EAC878" class="mono-code" font-size="9">Local-1st</text>
+    <rect x="85" y="156" width="70" height="20" rx="4" fill="#1A2218" stroke="#34D399" stroke-width="0.5"/>
+    <text x="120" y="170" text-anchor="middle" fill="#34D399" class="mono-code" font-size="9">&lt;16ms</text>
+    <rect x="161" y="156" width="65" height="20" rx="4" fill="#16202A" stroke="#38BDF8" stroke-width="0.5"/>
+    <text x="193" y="170" text-anchor="middle" fill="#38BDF8" class="mono-code" font-size="9">$0 SaaS</text>
+    <rect x="232" y="156" width="68" height="20" rx="4" fill="#1D1926" stroke="#A78BFA" stroke-width="0.5"/>
+    <text x="266" y="170" text-anchor="middle" fill="#C4B5FD" class="mono-code" font-size="9">Apache 2.0</text>
+  </g>
+
+  <!-- CARD 6: PROFILER -->
+  <g transform="translate(740, 330)">
+    <rect width="315" height="205" rx="8" fill="url(#cardGrad)" stroke="#C5A059" stroke-width="0.8" stroke-opacity="0.4"/>
+    <rect x="14" y="14" width="28" height="28" rx="6" fill="#1C1814" stroke="#C5A059" stroke-width="0.5"/>
+    <text x="28" y="33" text-anchor="middle" font-size="14">🧠</text>
+    <text x="50" y="27" fill="#F5E8C8" class="serif-head" font-size="14">PROFILER</text>
+    <text x="50" y="40" fill="#9C9286" class="sans-text" font-size="10">Cognitive State &amp; Intent Miner</text>
+
+    <line x1="14" y1="52" x2="301" y2="52" stroke="#2D2721" stroke-width="0.8"/>
+
+    <text x="16" y="74" fill="#E2DDD5" class="sans-text" font-size="11">• ActivityWatch 10s pulse heartbeat merge</text>
+    <text x="16" y="94" fill="#E2DDD5" class="sans-text" font-size="11">• Incremental byte-seek transcript stream</text>
+    <text x="16" y="114" fill="#E2DDD5" class="sans-text" font-size="11">• Friction (0.0-1.0) &amp; load calibration</text>
+    <text x="16" y="134" fill="#E2DDD5" class="sans-text" font-size="11">• &lt;80 token agent prime • Notch sync</text>
+
+    <!-- Pills -->
+    <rect x="14" y="156" width="65" height="20" rx="4" fill="#221C16" stroke="#C5A059" stroke-width="0.5"/>
+    <text x="46" y="170" text-anchor="middle" fill="#EAC878" class="mono-code" font-size="9">Win32/Py</text>
+    <rect x="85" y="156" width="70" height="20" rx="4" fill="#1A2218" stroke="#34D399" stroke-width="0.5"/>
+    <text x="120" y="170" text-anchor="middle" fill="#34D399" class="mono-code" font-size="9">&lt;10ms</text>
+    <rect x="161" y="156" width="65" height="20" rx="4" fill="#16202A" stroke="#38BDF8" stroke-width="0.5"/>
+    <text x="193" y="170" text-anchor="middle" fill="#38BDF8" class="mono-code" font-size="9">&lt;25MB</text>
+    <rect x="232" y="156" width="68" height="20" rx="4" fill="#1D1926" stroke="#A78BFA" stroke-width="0.5"/>
+    <text x="266" y="170" text-anchor="middle" fill="#C4B5FD" class="mono-code" font-size="9">Apache 2.0</text>
+  </g>
+</svg>

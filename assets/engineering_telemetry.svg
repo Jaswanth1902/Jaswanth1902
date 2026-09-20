@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 380" width="100%" height="100%">
+  <defs>
+    <radialGradient id="telemVignette" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#12100E" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#080707" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#040303" stop-opacity="1"/>
+    </radialGradient>
+
+    <linearGradient id="telemGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F3DC9E"/>
+      <stop offset="50%" stop-color="#C5A059"/>
+      <stop offset="100%" stop-color="#9B7832"/>
+    </linearGradient>
+
+    <linearGradient id="tileGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141210" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0B0A09" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <pattern id="telemGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.75" fill="#2D2721" opacity="0.4" />
+    </pattern>
+
+    <style>
+      .serif-title { font-family: 'Cinzel', 'Playfair Display', 'Georgia', serif; font-weight: 700; letter-spacing: 2px; }
+      .mono-metric { font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; }
+      .sans-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1100" height="380" fill="#040303"/>
+  <rect width="1100" height="380" fill="url(#telemVignette)"/>
+  <rect width="1100" height="380" fill="url(#telemGrid)"/>
+
+  <!-- Outer Framing -->
+  <rect x="20" y="20" width="1060" height="340" fill="none" stroke="#C5A059" stroke-width="0.8" stroke-opacity="0.35"/>
+  <rect x="24" y="24" width="1052" height="332" fill="none" stroke="#C5A059" stroke-width="0.5" stroke-dasharray="4,6" stroke-opacity="0.2"/>
+  <circle cx="20" cy="20" r="3" fill="#C5A059"/>
+  <circle cx="1080" cy="20" r="3" fill="#C5A059"/>
+  <circle cx="20" cy="360" r="3" fill="#C5A059"/>
+  <circle cx="1080" cy="360" r="3" fill="#C5A059"/>
+
+  <!-- Header -->
+  <text x="550" y="52" text-anchor="middle" fill="url(#telemGold)" class="serif-title" font-size="18">PHYSICAL REALITY &amp; SYSTEM INVARIANTS</text>
+  <text x="550" y="70" text-anchor="middle" fill="#8E857B" class="mono-metric" font-size="10" letter-spacing="1">GROUND TRUTH BENCHMARKS • ZERO CLOUD TELEMETRY • LOCAL-FIRST</text>
+  <line x1="430" y1="78" x2="670" y2="78" stroke="#C5A059" stroke-width="0.6" stroke-opacity="0.4"/>
+
+  <!-- 4 Telemetry Tiles -->
+
+  <!-- Tile 1: Latency Ceilings -->
+  <g transform="translate(45, 95)">
+    <rect width="235" height="195" rx="6" fill="url(#tileGrad)" stroke="#C5A059" stroke-width="0.6" stroke-opacity="0.35"/>
+    <text x="16" y="26" fill="#F5E8C8" class="serif-title" font-size="11">DETERMINISTIC LATENCY</text>
+    <line x1="16" y1="36" x2="219" y2="36" stroke="#2D2721" stroke-width="0.8"/>
+
+    <text x="16" y="60" fill="#9C9286" class="sans-label" font-size="10">Win32 Window Query</text>
+    <text x="219" y="60" text-anchor="end" fill="#34D399" class="mono-metric" font-size="11" font-weight="700">0.42 ms</text>
+
+    <text x="16" y="90" fill="#9C9286" class="sans-label" font-size="10">DWEL Cycle Intercept</text>
+    <text x="219" y="90" text-anchor="end" fill="#34D399" class="mono-metric" font-size="11" font-weight="700">&lt; 1.00 ms</text>
+
+    <text x="16" y="120" fill="#9C9286" class="sans-label" font-size="10">AST Symbol Lookup</text>
+    <text x="219" y="120" text-anchor="end" fill="#34D399" class="mono-metric" font-size="11" font-weight="700">&lt; 10.00 ms</text>
+
+    <text x="16" y="150" fill="#9C9286" class="sans-label" font-size="10">Transcript Byte Seek</text>
+    <text x="219" y="150" text-anchor="end" fill="#34D399" class="mono-metric" font-size="11" font-weight="700">&lt; 12.00 ms</text>
+
+    <text x="16" y="180" fill="#9C9286" class="sans-label" font-size="10">mem-shred 4-Pass</text>
+    <text x="219" y="180" text-anchor="end" fill="#34D399" class="mono-metric" font-size="11" font-weight="700">0.08 µs</text>
+  </g>
+
+  <!-- Tile 2: Resource Footprint -->
+  <g transform="translate(300, 95)">
+    <rect width="235" height="195" rx="6" fill="url(#tileGrad)" stroke="#C5A059" stroke-width="0.6" stroke-opacity="0.35"/>
+    <text x="16" y="26" fill="#F5E8C8" class="serif-title" font-size="11">RESOURCE FOOTPRINT</text>
+    <line x1="16" y1="36" x2="219" y2="36" stroke="#2D2721" stroke-width="0.8"/>
+
+    <text x="16" y="60" fill="#9C9286" class="sans-label" font-size="10">Idle CPU Consumption</text>
+    <text x="219" y="60" text-anchor="end" fill="#38BDF8" class="mono-metric" font-size="11" font-weight="700">0.0 %</text>
+
+    <text x="16" y="90" fill="#9C9286" class="sans-label" font-size="10">Peak Daemon Memory</text>
+    <text x="219" y="90" text-anchor="end" fill="#38BDF8" class="mono-metric" font-size="11" font-weight="700">&lt; 25 MB</text>
+
+    <text x="16" y="120" fill="#9C9286" class="sans-label" font-size="10">Agent Context Savings</text>
+    <text x="219" y="120" text-anchor="end" fill="#38BDF8" class="mono-metric" font-size="11" font-weight="700">&gt; 90 %</text>
+
+    <text x="16" y="150" fill="#9C9286" class="sans-label" font-size="10">Telemetry Write Cut</text>
+    <text x="219" y="150" text-anchor="end" fill="#38BDF8" class="mono-metric" font-size="11" font-weight="700">&gt; 95 %</text>
+
+    <text x="16" y="180" fill="#9C9286" class="sans-label" font-size="10">Agent Prime Preamble</text>
+    <text x="219" y="180" text-anchor="end" fill="#38BDF8" class="mono-metric" font-size="11" font-weight="700">&lt; 80 t</text>
+  </g>
+
+  <!-- Tile 3: Security & Architecture Invariants -->
+  <g transform="translate(555, 95)">
+    <rect width="235" height="195" rx="6" fill="url(#tileGrad)" stroke="#C5A059" stroke-width="0.6" stroke-opacity="0.35"/>
+    <text x="16" y="26" fill="#F5E8C8" class="serif-title" font-size="11">SECURITY INVARIANTS</text>
+    <line x1="16" y1="36" x2="219" y2="36" stroke="#2D2721" stroke-width="0.8"/>
+
+    <text x="16" y="60" fill="#9C9286" class="sans-label" font-size="10">OS Ring Boundary</text>
+    <text x="219" y="60" text-anchor="end" fill="#EAC878" class="mono-metric" font-size="11" font-weight="700">Ring 3 Only</text>
+
+    <text x="16" y="90" fill="#9C9286" class="sans-label" font-size="10">Subprocess Isolation</text>
+    <text x="219" y="90" text-anchor="end" fill="#EAC878" class="mono-metric" font-size="11" font-weight="700">0x08000000</text>
+
+    <text x="16" y="120" fill="#9C9286" class="sans-label" font-size="10">RAM Zeroization</text>
+    <text x="219" y="120" text-anchor="end" fill="#EAC878" class="mono-metric" font-size="11" font-weight="700">DoD 5220.22-M</text>
+
+    <text x="16" y="150" fill="#9C9286" class="sans-label" font-size="10">Data Fabric State</text>
+    <text x="219" y="150" text-anchor="end" fill="#EAC878" class="mono-metric" font-size="11" font-weight="700">SQLite WAL</text>
+
+    <text x="16" y="180" fill="#9C9286" class="sans-label" font-size="10">Loop Interception</text>
+    <text x="219" y="180" text-anchor="end" fill="#EAC878" class="mono-metric" font-size="11" font-weight="700">Back-Edge DAG</text>
+  </g>
+
+  <!-- Tile 4: Polyglot Systems Stack -->
+  <g transform="translate(810, 95)">
+    <rect width="245" height="195" rx="6" fill="url(#tileGrad)" stroke="#C5A059" stroke-width="0.6" stroke-opacity="0.35"/>
+    <text x="16" y="26" fill="#F5E8C8" class="serif-title" font-size="11">SYSTEMS RUNTIME</text>
+    <line x1="16" y1="36" x2="229" y2="36" stroke="#2D2721" stroke-width="0.8"/>
+
+    <text x="16" y="60" fill="#9C9286" class="sans-label" font-size="10">Python 3.10+ (AST/AI)</text>
+    <text x="229" y="60" text-anchor="end" fill="#A78BFA" class="mono-metric" font-size="11" font-weight="700">60 %</text>
+
+    <text x="16" y="90" fill="#9C9286" class="sans-label" font-size="10">C++20 (Zeroize Primitives)</text>
+    <text x="229" y="90" text-anchor="end" fill="#A78BFA" class="mono-metric" font-size="11" font-weight="700">18 %</text>
+
+    <text x="16" y="120" fill="#9C9286" class="sans-label" font-size="10">Win32 C# / WPF (HUD)</text>
+    <text x="229" y="120" text-anchor="end" fill="#A78BFA" class="mono-metric" font-size="11" font-weight="700">12 %</text>
+
+    <text x="16" y="150" fill="#9C9286" class="sans-label" font-size="10">TypeScript / React</text>
+    <text x="229" y="150" text-anchor="end" fill="#A78BFA" class="mono-metric" font-size="11" font-weight="700">10 %</text>
+
+    <text x="16" y="180" fill="#9C9286" class="sans-label" font-size="10">Governance Standard</text>
+    <text x="229" y="180" text-anchor="end" fill="#34D399" class="mono-metric" font-size="11" font-weight="700">Apache 2.0</text>
+  </g>
+
+  <!-- Bottom Telemetry Bar -->
+  <g transform="translate(45, 305)">
+    <rect width="1010" height="36" rx="6" fill="#0E0C0A" stroke="#C5A059" stroke-width="0.5" stroke-opacity="0.3"/>
+    <circle cx="20" cy="18" r="4" fill="#34D399"/>
+    <text x="32" y="22" fill="#E2DDD5" class="sans-label" font-size="11" font-weight="600">ALL 6 SOVEREIGN FLAGSHIPS OPERATIONAL</text>
+    
+    <text x="340" y="22" fill="#8E857B" class="mono-metric" font-size="10">• 100% Unit Test Pass Rate</text>
+    <text x="540" y="22" fill="#8E857B" class="mono-metric" font-size="10">• Sub-16ms Query Floor</text>
+    <text x="730" y="22" fill="#8E857B" class="mono-metric" font-size="10">• Zero External Cloud APIs</text>
+    <text x="920" y="22" fill="#C5A059" class="mono-metric" font-size="10" font-weight="700">Apache 2.0</text>
+  </g>
+</svg>

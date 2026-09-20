@@ -22,36 +22,27 @@
 
 ## 🏛️ The 6 Sovereign Flagships
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                       THE 6 SOVEREIGN FLAGSHIPS                                        │
-├──────────────────────────────────┬──────────────────────────────────┬──────────────────────────────────┤
-│              NOTCH               │            CARTOGRAPH            │               DWEL               │
-│       (Native Desktop HUD)       │       (AST Memory Engine)        │       (Agent Loop Engine)        │
-├──────────────────────────────────┼──────────────────────────────────┼──────────────────────────────────┤
-│ • Win11 Dynamic Island           │ • Zero-dependency MCP server     │ • Directed graph cycle engine    │
-│ • 0.0% Idle CPU                  │ • Cuts tokens by >90%            │ • Cuts token burn by 42%         │
-│ • <25 MB RAM consumption         │ • Sub-10ms query latency         │ • Sub-1ms action fingerprint     │
-│ • Shift+Enter approval           │ • Standard library AST           │ • Trajectory loop break          │
-│ • PowerShell / Win32 C#          │ • Python / SQLite WAL            │ • Python / PyPI standalone       │
-├──────────────────────────────────┼──────────────────────────────────┼──────────────────────────────────┤
-│            MEM-SHRED             │            INSTAFLOW             │             PROFILER             │
-│    (Cryptographic Sanitizer)     │   (Direct Intelligence Agent)    │    (Cognitive State & Intent)    │
-├──────────────────────────────────┼──────────────────────────────────┼──────────────────────────────────┤
-│ • 3-pass DoD 5220.22-M shred     │ • Zero-SaaS direct automation    │ • ActivityWatch pulse heartbeats │
-│ • Dead Store Elimination safe    │ • Sub-16ms command dispatch      │ • Incremental byte-seek stream   │
-│ • C++17 native & Python ctypes   │ • <1s account dorking lookup     │ • Friction & cognitive load score│
-│ • Zero RAM remanence (Cold-Bt)   │ • Interactive CLI simulator      │ • <80 token AI agent prime       │
-│ • Win32 / Linux explicit_bzero   │ • Python 3.10+ / Web Direct      │ • Win32 ctypes / Notch ambient   │
-└──────────────────────────────────┴──────────────────────────────────┴──────────────────────────────────┘
-```
+<p align="center">
+  <img src="assets/sovereign_flagships_matrix.svg" alt="The 6 Sovereign Flagships Architecture Matrix" width="100%" />
+</p>
+
+| Flagship | Focus & Problem Solved | Key Benchmark | Tech Stack | License |
+| :--- | :--- | :--- | :--- | :--- |
+| 🏝️ [**Notch**](https://github.com/Jaswanth1902/Notch) | Ambient status HUD without focus stealing | **0.0% Idle CPU** • &lt;25 MB RAM | Win32 C#, WPF, PowerShell | `Apache 2.0` |
+| 🗺️ [**Cartograph**](https://github.com/Jaswanth1902/Omnia-codebase-memory) | Deterministic AST codebase mapping & memory MCP | **&lt;10ms lookup** • &gt;90% token cut | Python, MCP, AST, SQLite WAL | `Apache 2.0` |
+| ⚡ [**DWEL**](https://github.com/Jaswanth1902/dwel) | Non-progressing agent cycle detection | **&lt;1ms fingerprint** • 42% token cut | Python 3.10+, DAG Trajectory | `Apache 2.0` |
+| 🔒 [**mem-shred**](https://github.com/Jaswanth1902/mem-shred) | Dead-Store Elimination safe RAM zeroization | **0.08 µs** 4-pass cache purge | C++20 Header-Only, Python ctypes | `Apache 2.0` |
+| ⚡ [**InstaFlow**](https://github.com/Jaswanth1902/InstaFlow) | Direct intelligence & automated lead discovery | **Sub-16ms dispatch** • &lt;1s dorking | Python 3.10+, Web Direct API | `Apache 2.0` |
+| 🧠 [**Profiler**](https://github.com/Jaswanth1902/Profiler) | Cognitive state & session intent mining | **10s pulse merge** • &lt;80t prime | Win32 ctypes, Python stdlib | `Apache 2.0` |
+
+---
 
 ### 🏝️ 1. [Notch](https://github.com/Jaswanth1902/Notch) — Native Windows 11 Dynamic Island & Agent HUD
 *Why should macOS have all the sleek ambient desktop widgets while Windows users are stuck with 200MB background Electron wrappers?*  
 - **The Problem**: Desktop agent indicators either hijack user focus or sit hidden in the taskbar notification tray.
 - **The Solution**: An ambient, bezel-flush Dynamic Island built natively in PowerShell, WPF, and Win32 C#.
 - **Performance**: **0% idle CPU** and `<25MB RAM`, with a global `Shift+Enter` system hook allowing users to approve autonomous tool executions without window focus changes.
-- **Tags**: `desktop-ui` • `dynamic-island` • `hud` • `python` • `realtime` • `apache-2.0`
+- **Tags**: `desktop-ui` • `dynamic-island` • `hud` • `powershell` • `csharp` • `apache-2.0`
 
 ### 🗺️ 2. [Cartograph](https://github.com/Jaswanth1902/Omnia-codebase-memory) — AST Codebase Mapmaker & MCP Memory Server
 *Why should coding assistants burn 40% of their context windows grepping raw text files?*  
@@ -70,7 +61,7 @@
 ### 🔒 4. [mem-shred](https://github.com/Jaswanth1902/mem-shred) — Cryptographic Memory Sanitizer & Anti-Forensic RAM Scrubber
 *Why do sensitive private keys and decrypted payloads remain fully extractable in RAM long after deallocation?*  
 - **The Problem**: Standard `free()`, `delete`, and Python garbage collection do not zero memory, while compilers optimize away `memset` calls via Dead Store Elimination.
-- **The Solution**: A zero-overhead C++17 header and Python module enforcing hardware compiler barriers and 3-pass cryptographic overwrites (DoD 5220.22-M compliant).
+- **The Solution**: A zero-overhead C++20 header and Python module enforcing hardware compiler barriers and 3-pass cryptographic overwrites (DoD 5220.22-M compliant).
 - **Security**: Mitigates physical cold-boot memory remanence and RAM forensic extraction with guaranteed zero plaintext leakage.
 - **Tags**: `cryptography` • `memory-safety` • `anti-forensics` • `zeroize` • `cpp` • `security` • `apache-2.0`
 
@@ -115,14 +106,17 @@ In addition to the six sovereign flagships, I maintain open-source implementatio
 
 ---
 
-## 📊 Activity & Telemetry
+## 📊 Physical Reality & Engineering Telemetry
 
-<div align="center">
-  <a href="https://github.com/Jaswanth1902">
-    <img src="https://github-readme-stats.vercel.app/api?username=Jaswanth1902&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="175" alt="Jaswanth's GitHub Stats" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jaswanth1902&layout=compact&theme=tokyonight&hide_border=true" height="175" alt="Top Languages" />
-  </a>
-</div>
+<p align="center">
+  <img src="assets/engineering_telemetry.svg" alt="Physical Reality & System Invariants Telemetry" width="100%" />
+</p>
+
+- **Deterministic Latency Floor**: Win32 foreground queries execute in `0.42ms`; DWEL trajectory loop interception in `<1.00ms`; AST symbol lookup in `<10.00ms`.
+- **Resource Footprint**: `0.0% Idle CPU` via event-driven reactors; `<25MB RAM` per background daemon; `>90%` agent context token savings.
+- **Security & Ring Boundary**: Strict Ring-3 user-space execution with zero kernel drivers; hardware-enforced 3-pass DoD 5220.22-M memory zeroization.
+- **Central Data Fabric**: Namespaced SQLite WAL persistence (`core/blackboard.py`) with zero database fragmentation.
+- **Zero Cloud Dependency**: 100% air-gapped execution capability with zero telemetry phone-home.
 
 ---
 
