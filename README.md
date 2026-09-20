@@ -5,7 +5,7 @@
 # Hi, I'm Jaswanth 👋
 
 <p align="left">
-  <a href="https://github.com/Jaswanth1902"><img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=19&duration=3000&pause=1000&color=C5A059&width=750&lines=Systems+%26+AI+Engineer+%E2%80%A2+C%2B%2B+%26+Python+Primitives;Creator+of+Notch+(Native+Dynamic+Island+for+Windows+11);Architect+of+Cartograph+(AST+MCP+Codebase+Mapmaker);Author+of+DWEL+(Agentic+Cycle+Detection+%26+Token+Optimization);Designer+of+mem-shred+(Cryptographic+RAM+Sanitizer);Engineer+of+InstaFlow+(Direct+Social+Intelligence+Agent)" alt="Typing SVG" /></a>
+  <a href="https://github.com/Jaswanth1902"><img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=19&duration=3000&pause=1000&color=C5A059&width=750&lines=Systems+%26+AI+Engineer+%E2%80%A2+C%2B%2B+%26+Python+Primitives;Creator+of+Notch+(Native+Dynamic+Island+for+Windows+11);Architect+of+Cartograph+(AST+MCP+Codebase+Mapmaker);Author+of+DWEL+(Agentic+Cycle+Detection+%26+Token+Optimization);Designer+of+mem-shred+(Cryptographic+RAM+Sanitizer);Engineer+of+InstaFlow+(Direct+Social+Intelligence+Agent);Builder+of+Profiler+(Cognitive+State+%26+Intent+Engine)" alt="Typing SVG" /></a>
 </p>
 
 > **Systems & AI Engineer • Low-Level Runtimes • Autonomous Agent Infrastructure • Open-Source Builder**  
@@ -13,28 +13,37 @@
 
 <p align="left">
   <a href="https://github.com/Jaswanth1902"><img src="https://img.shields.io/github/followers/Jaswanth1902?label=Followers&style=flat-square&color=C5A059" alt="GitHub Followers"></a>
-  <a href="https://github.com/Jaswanth1902?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-23%20Repositories-10B981?style=flat-square" alt="Repositories"></a>
+  <a href="https://github.com/Jaswanth1902?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-24%20Repositories-10B981?style=flat-square" alt="Repositories"></a>
   <a href="mailto:jaswanthreddy1537@gmail.com"><img src="https://img.shields.io/badge/Contact-Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://www.linkedin.com/in/kannali-sai-jaswanth-reddy-aa3678337/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
 ---
 
-## 🏛️ The 5 Sovereign Flagships
+## 🏛️ The 6 Sovereign Flagships
 
 ```
-┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                                               THE 5 SOVEREIGN FLAGSHIPS                                                                │
-├──────────────────────────┬─────────────────────────────┬───────────────────────────────┬───────────────────────────────┬───────────────────────────────┤
-│          NOTCH           │         CARTOGRAPH          │             DWEL              │           MEM-SHRED           │           INSTAFLOW           │
-│   (Native Desktop HUD)   │     (AST Memory Engine)     │      (Agent Loop Engine)      │   (Cryptographic Sanitizer)   │  (Direct Intelligence Agent)  │
-├──────────────────────────┼─────────────────────────────┼───────────────────────────────┼───────────────────────────────┼───────────────────────────────┤
-│ • Win11 Dynamic Island   │ • Zero-dependency MCP server│ • Directed graph cycle engine │ • 3-pass DoD 5220.22-M shred  │ • Zero-SaaS direct automation │
-│ • 0.0% Idle CPU          │ • Cuts tokens by >90%       │ • Cuts token burn by 42%      │ • Dead Store Elimination safe │ • Sub-16ms command dispatch   │
-│ • <25 MB RAM consumption │ • Sub-10ms query latency    │ • Sub-1ms action fingerprint  │ • C++17 native & Python ctypes│ • <1s account lookup dorking  │
-│ • Shift+Enter approval   │ • Standard library AST      │ • Trajectory loop break       │ • Zero RAM remanence (Cold-Bt)│ • Interactive CLI simulator   │
-│ • PowerShell / Win32 C#  │ • Python / SQLite WAL       │ • Python / PyPI standalone    │ • Win32 / Linux explicit_bzero│ • Python 3.10+ / Web Direct   │
-└──────────────────────────┴─────────────────────────────┴───────────────────────────────┴───────────────────────────────┴───────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                       THE 6 SOVEREIGN FLAGSHIPS                                        │
+├──────────────────────────────────┬──────────────────────────────────┬──────────────────────────────────┤
+│              NOTCH               │            CARTOGRAPH            │               DWEL               │
+│       (Native Desktop HUD)       │       (AST Memory Engine)        │       (Agent Loop Engine)        │
+├──────────────────────────────────┼──────────────────────────────────┼──────────────────────────────────┤
+│ • Win11 Dynamic Island           │ • Zero-dependency MCP server     │ • Directed graph cycle engine    │
+│ • 0.0% Idle CPU                  │ • Cuts tokens by >90%            │ • Cuts token burn by 42%         │
+│ • <25 MB RAM consumption         │ • Sub-10ms query latency         │ • Sub-1ms action fingerprint     │
+│ • Shift+Enter approval           │ • Standard library AST           │ • Trajectory loop break          │
+│ • PowerShell / Win32 C#          │ • Python / SQLite WAL            │ • Python / PyPI standalone       │
+├──────────────────────────────────┼──────────────────────────────────┼──────────────────────────────────┤
+│            MEM-SHRED             │            INSTAFLOW             │             PROFILER             │
+│    (Cryptographic Sanitizer)     │   (Direct Intelligence Agent)    │    (Cognitive State & Intent)    │
+├──────────────────────────────────┼──────────────────────────────────┼──────────────────────────────────┤
+│ • 3-pass DoD 5220.22-M shred     │ • Zero-SaaS direct automation    │ • ActivityWatch pulse heartbeats │
+│ • Dead Store Elimination safe    │ • Sub-16ms command dispatch      │ • Incremental byte-seek stream   │
+│ • C++17 native & Python ctypes   │ • <1s account dorking lookup     │ • Friction & cognitive load score│
+│ • Zero RAM remanence (Cold-Bt)   │ • Interactive CLI simulator      │ • <80 token AI agent prime       │
+│ • Win32 / Linux explicit_bzero   │ • Python 3.10+ / Web Direct      │ • Win32 ctypes / Notch ambient   │
+└──────────────────────────────────┴──────────────────────────────────┴──────────────────────────────────┘
 ```
 
 ### 🏝️ 1. [Notch](https://github.com/Jaswanth1902/Notch) — Native Windows 11 Dynamic Island & Agent HUD
@@ -72,11 +81,18 @@
 - **Performance**: Dispatches automated lead magnets in **<16ms**, discovers creator profiles in **<1s**, and consumes **<25MB RAM** with zero external cloud dependencies.
 - **Tags**: `instagram` • `social-intelligence` • `lead-generation` • `automation` • `python` • `apache-2.0`
 
+### 🧠 6. [Profiler](https://github.com/Jaswanth1902/Profiler) — Autonomous Cognitive State & Session Intent Mining Engine
+*Why must developers re-explain context and manually maintain stale todo lists every time they open an AI coding agent?*  
+- **The Problem**: Manual task tracking falls out of sync within 48 hours, and coding agents start cold with zero awareness of recent friction or active windows.
+- **The Solution**: An ActivityWatch-inspired heartbeat pulse compressor merged with incremental byte-seek session log mining to derive implicit developer priorities.
+- **Performance**: Merges window pulses in **<0.5ms**, streams session logs in **<12ms**, and emits a **<80 token** pre-flight prime with **<25MB RAM** footprint.
+- **Tags**: `cognitive-state` • `session-mining` • `activity-tracker` • `intent-recognition` • `local-first` • `apache-2.0`
+
 ---
 
 ## 🏛️ Open-Source Systems & Research Vault
 
-In addition to the five sovereign flagships, I maintain open-source implementations across low-level runtimes, clinical diagnostics, and computational geometry:
+In addition to the six sovereign flagships, I maintain open-source implementations across low-level runtimes, clinical diagnostics, and computational geometry:
 
 | Repository | Focus Area | Technical Highlight | Tech Stack |
 | :--- | :--- | :--- | :--- |
