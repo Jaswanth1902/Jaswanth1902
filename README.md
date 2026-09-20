@@ -10,45 +10,40 @@ I build lightweight tools for Windows, AI coding workflows, and low-level runtim
 
 ### 🏝️ [Notch](https://github.com/Jaswanth1902/Notch) — Windows 11 Dynamic Island & Ambient HUD
 *A bezel-flush status HUD that doesn't steal focus.*
-- **Why**: Background Electron widgets eat 200MB+ of RAM just to display a few status badges.
-- **How**: Built in native C#, WPF, and PowerShell with global hotkeys (`Shift+Enter`) to confirm background tasks without task switching.
-- **Footprint**: **0.0% idle CPU**, `<25MB RAM`.
-- **Stack**: C#, Win32, WPF, PowerShell • `Apache 2.0`
+- Background Electron widgets eat 200MB+ of RAM just to display a few status badges.
+- Built in native C#, WPF, and PowerShell with global hotkeys (`Shift+Enter`) to confirm background tasks without task switching.
+- **0.0% idle CPU**, `<25MB RAM` • C#, Win32, WPF, PowerShell • `Apache 2.0`
 
 ### 🗺️ [Cartograph](https://github.com/Jaswanth1902/Omnia-codebase-memory) — Fast AST Codebase Mapmaker & MCP Server
 *Give coding agents an instant structural map instead of grepping thousands of lines.*
-- **Why**: AI coding assistants burn through context windows and generate hallucinated imports when reading raw files blindly.
-- **How**: An MCP server that parses code into deterministic AST symbol graphs with SQLite WAL caching.
-- **Benchmark**: **<10ms** symbol lookup, cuts agent context token burn by **>90%**.
-- **Stack**: Python 3.10+, AST, MCP Protocol, SQLite • `Apache 2.0`
+- AI coding assistants burn through context windows and generate hallucinated imports when reading raw files blindly.
+- An MCP server that parses code into deterministic AST symbol graphs with SQLite WAL caching.
+- **<10ms** symbol lookup, cuts agent context token burn by **>90%** • Python 3.10+, AST, MCP Protocol, SQLite • `Apache 2.0`
 
 ### ⚡ [DWEL](https://github.com/Jaswanth1902/dwel) — Loop Detector for AI Coding Agents
 *Catch non-progressing agent loops before they drain API credits.*
-- **Why**: Autonomous agents often get trapped in retry cycles, repeating failing tool calls until context runs out.
-- **How**: Hashes actions and models execution history as a directed graph to detect back-edges and cycles in real time.
-- **Benchmark**: **<1ms** cycle fingerprinting, saves up to **42%** of token budgets.
-- **Stack**: Python 3.10+, DAG Trajectory Engine • `Apache 2.0`
+- Autonomous agents often get trapped in retry cycles, repeating failing tool calls until context runs out.
+- Hashes actions and models execution history as a directed graph to detect back-edges and cycles in real time.
+- **<1ms** cycle fingerprinting, saves up to **42%** of token budgets • Python 3.10+, DAG Trajectory Engine • `Apache 2.0`
 
 ### 🔒 [mem-shred](https://github.com/Jaswanth1902/mem-shred) — Compiler-Safe RAM Zeroization
 *Wipe sensitive keys and credentials from memory without compilers optimizing the wipe away.*
-- **Why**: Standard `free()`, `delete`, or `memset()` calls are frequently stripped by modern compilers via Dead Store Elimination.
-- **How**: Header-only C++20 library and Python module enforcing hardware memory barriers and 3-pass DoD 5220.22-M overwrites.
-- **Benchmark**: **0.08 µs** cache-line purge, zero forensic plaintext leakage.
-- **Stack**: C++20 Header-Only, Python ctypes • `Apache 2.0`
+- Standard `free()`, `delete`, or `memset()` calls are frequently stripped by modern compilers via Dead Store Elimination.
+- Header-only C++20 library and Python module enforcing hardware memory barriers and 3-pass DoD 5220.22-M overwrites.
+- **0.08 µs** cache-line purge, zero forensic plaintext leakage • C++20 Header-Only, Python ctypes • `Apache 2.0`
 
 ### ⚡ [InstaFlow](https://github.com/Jaswanth1902/InstaFlow) — Local-First Instagram DM Automation
 *Send links and automate DM leads without third-party SaaS subscriptions.*
-- **Why**: Tools like ManyChat cost $50+/month and require full cloud access tokens just to send automated links.
-- **How**: Zero-dependency Python CLI and direct API agent with sub-16ms dispatch and an interactive terminal simulator.
-- **Benchmark**: **<16ms** message dispatch, `<25MB RAM`, $0 SaaS fees.
-- **Stack**: Python 3.10+, Direct Web API • `Apache 2.0`
+- Commercial tools like ManyChat cost $50+/month and require full cloud access tokens just to send automated links.
+- Zero-dependency Python CLI and direct API agent with sub-16ms dispatch and an interactive terminal simulator.
+- **<16ms** message dispatch, `<25MB RAM`, $0 SaaS fees • Python 3.10+, Direct Web API • `Apache 2.0`
 
 ### 🧠 [Profiler](https://github.com/Jaswanth1902/Profiler) — Focus & Session Intent Engine
 *Prime AI coding agents with your actual working context instead of starting from scratch.*
-- **Why**: Task lists fall out of date within 48 hours, and coding agents have zero idea what you were just working on or what broke.
-- **How**: Merges active window pulses with recent session log mining to produce an instant context brief.
-- **Benchmark**: **<0.5ms** pulse merge, streams session logs in **<12ms**, emits a **<80 token** agent prompt prime.
-- **Stack**: Python stdlib, Win32 ctypes • `Apache 2.0`
+- Task lists fall out of date within 48 hours, and coding agents have zero idea what you were just working on or what broke.
+- Merges active window pulses with recent session log mining to produce an instant context brief.
+- **<0.5ms** pulse merge, streams session logs in **<12ms**, emits a **<80 token** prompt prime • Python stdlib, Win32 ctypes • `Apache 2.0`
+
 
 ---
 
