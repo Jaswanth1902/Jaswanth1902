@@ -44,6 +44,11 @@ I build lightweight tools for Windows, AI coding workflows, and low-level runtim
 - Merges active window pulses with recent session log mining to produce an instant context brief.
 - **<0.5ms** pulse merge, streams session logs in **<12ms**, emits a **<80 token** prompt prime • Python stdlib, Win32 ctypes • `Apache 2.0`
 
+### 🛡️ [Aegis-AST](https://github.com/Jaswanth1902/Aegis-AST) — Sub-Second Python AST Security & Secret Linter
+*Catch leaked credentials and SQL injections without waiting minutes for heavy SAST containers.*
+- SAST tools like Bandit and Semgrep require heavy setups, take 3–8 seconds, and regex scanners drown in false positives.
+- Pure Python standard library scanner with Shannon entropy testing ($H \ge 3.2$) to verify cryptographic randomness and AST grammar trees to isolate real SQL injections.
+- **~0.15s** scan per 10k LOC, **0 dependencies** • Python 3.9+, AST, stdlib • `Apache 2.0`
 
 ---
 
@@ -57,6 +62,7 @@ I build lightweight tools for Windows, AI coding workflows, and low-level runtim
 | [mem-shred](https://github.com/Jaswanth1902/mem-shred) | Compiler-safe RAM credential wipe | 0.08 µs purge • 0 leakage | C++20, ctypes |
 | [InstaFlow](https://github.com/Jaswanth1902/InstaFlow) | Local-first Instagram DM lead runner | <16ms dispatch • $0 SaaS fees | Python, Direct API |
 | [Profiler](https://github.com/Jaswanth1902/Profiler) | Derives context prime from session logs | <80 tokens • <0.5ms merge | Python, Win32 |
+| [Aegis-AST](https://github.com/Jaswanth1902/Aegis-AST) | Sub-second AST security & secret linter | ~0.15s scan • 0 dependencies | Python, AST, stdlib |
 
 ---
 
