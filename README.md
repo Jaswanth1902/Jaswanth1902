@@ -1,8 +1,17 @@
+<p align="center">
+  <img src="assets/profile_banner.png" alt="K. Sai Jaswanth Reddy — Atelier Monogram & Portfolio Banner" width="100%" />
+</p>
+
 # Hey, I'm Jaswanth 👋
 
-I build lightweight tools for Windows, AI coding workflows, and low-level runtimes in C++ and Python. Most of what I make starts because an existing tool was too slow, ate too much memory, or cost $50/month for simple API calls.
+<p align="left">
+  <a href="https://github.com/Jaswanth1902"><img src="https://img.shields.io/github/followers/Jaswanth1902?label=Followers&style=flat-square&color=C5A059" alt="GitHub Followers"></a>
+  <a href="https://github.com/Jaswanth1902?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-25%20Repositories-10B981?style=flat-square" alt="Repositories"></a>
+  <a href="mailto:jaswanthreddy1537@gmail.com"><img src="https://img.shields.io/badge/Contact-Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/kannali-sai-jaswanth-reddy-aa3678337/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+</p>
 
-[Email](mailto:jaswanthreddy1537@gmail.com) • [LinkedIn](https://www.linkedin.com/in/kannali-sai-jaswanth-reddy-aa3678337/) • [GitHub](https://github.com/Jaswanth1902)
+I build lightweight tools for Windows, AI coding workflows, and low-level runtimes in C++ and Python. Most of what I make starts because an existing tool was too slow, ate too much memory, or cost $50/month for simple API calls.
 
 ---
 
