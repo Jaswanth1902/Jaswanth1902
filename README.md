@@ -6,7 +6,7 @@
 
 <p align="left">
   <a href="https://github.com/Jaswanth1902"><img src="https://img.shields.io/github/followers/Jaswanth1902?label=Followers&style=flat-square&color=C5A059" alt="GitHub Followers"></a>
-  <a href="https://github.com/Jaswanth1902?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-25%20Repositories-10B981?style=flat-square" alt="Repositories"></a>
+  <a href="https://github.com/Jaswanth1902?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-26%20Repositories-10B981?style=flat-square" alt="Repositories"></a>
   <a href="mailto:jaswanthreddy1537@gmail.com"><img src="https://img.shields.io/badge/Contact-Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://www.linkedin.com/in/kannali-sai-jaswanth-reddy-aa3678337/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
@@ -34,6 +34,12 @@ I build lightweight tools for Windows, AI coding workflows, and low-level runtim
 - Autonomous agents often get trapped in retry cycles, repeating failing tool calls until context runs out.
 - Hashes actions and models execution history as a directed graph to detect back-edges and cycles in real time.
 - **<1ms** cycle fingerprinting, saves up to **42%** of token budgets • Python 3.10+, DAG Trajectory Engine • `Apache 2.0`
+
+### 🛠️ [SkillForge](https://github.com/Jaswanth1902/SkillForge) — AI Agent Skill Leveling & Universal Taxonomy Engine
+*Quantify agent capability maturity from raw prompts to deterministic execution pipelines.*
+- AI skills and prompts lack standardized leveling criteria, leading to silent drift, hallucinated schemas, and uncalibrated autonomy.
+- Universal parser (Antigravity, Claude, OpenAI, Cursor) classifying skills across a 10-domain ontology and scoring them against a 5-tier maturity rubric (Novice to Autonomous Pipeline).
+- **<15ms** multi-framework AST scan, **0 third-party dependencies**, automated level-up scaffold generator • Python 3.10+, AST, Standard Library • `MIT`
 
 ### 🔒 [mem-shred](https://github.com/Jaswanth1902/mem-shred) — Compiler-Safe RAM Zeroization
 *Wipe sensitive keys and credentials from memory without compilers optimizing the wipe away.*
@@ -68,6 +74,7 @@ I build lightweight tools for Windows, AI coding workflows, and low-level runtim
 | [Notch](https://github.com/Jaswanth1902/Notch) | Ambient HUD without focus stealing | 0.0% idle CPU • <25MB RAM | C#, WPF, Win32 |
 | [Cartograph](https://github.com/Jaswanth1902/Omnia-codebase-memory) | Instant AST codebase symbol indexer | <10ms lookup • >90% token cut | Python, AST, MCP |
 | [DWEL](https://github.com/Jaswanth1902/dwel) | Traps infinite agent execution loops | <1ms check • 42% token cut | Python, Graph Trajectory |
+| [SkillForge](https://github.com/Jaswanth1902/SkillForge) | 5-tier skill leveling & universal taxonomy engine | <15ms scan • 0 dependencies | Python, AST, stdlib |
 | [mem-shred](https://github.com/Jaswanth1902/mem-shred) | Compiler-safe RAM credential wipe | 0.08 µs purge • 0 leakage | C++20, ctypes |
 | [InstaFlow](https://github.com/Jaswanth1902/InstaFlow) | Local-first Instagram DM lead runner | <16ms dispatch • $0 SaaS fees | Python, Direct API |
 | [Profiler](https://github.com/Jaswanth1902/Profiler) | Derives context prime from session logs | <80 tokens • <0.5ms merge | Python, Win32 |
