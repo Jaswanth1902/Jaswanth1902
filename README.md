@@ -1,111 +1,32 @@
-<p align="center">
-  <img src="assets/profile_banner.png" alt="K. Sai Jaswanth Reddy — Atelier Monogram & Portfolio Banner" width="100%" />
-</p>
+<div align="center">
 
-# Hey, I'm Jaswanth 👋
+# K. Sai Jaswanth Reddy
+### Systems Architect & AI Agent Infrastructure Engineer
 
-<p align="left">
-  <a href="https://github.com/Jaswanth1902"><img src="https://img.shields.io/github/followers/Jaswanth1902?label=Followers&style=flat-square&color=C5A059" alt="GitHub Followers"></a>
-  <a href="https://github.com/Jaswanth1902?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-26%20Repositories-10B981?style=flat-square" alt="Repositories"></a>
-  <a href="mailto:jaswanthreddy1537@gmail.com"><img src="https://img.shields.io/badge/Contact-Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/kannali-sai-jaswanth-reddy-aa3678337/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-</p>
+`Windows Systems Engineering` • `AST Static Analysis` • `Cognitive Memory Runtimes` • `Local-First AI`
 
-I build lightweight tools for Windows, AI coding workflows, and low-level runtimes in C++ and Python. Most of what I make starts because an existing tool was too slow, ate too much memory, or cost $50/month for simple API calls.
+[🌐 GitHub](https://github.com/Jaswanth1902) • [📫 Email](mailto:ksaijaswanthr.cs24@rvce.edu.in)
 
 ---
 
-## Featured Projects
+</div>
 
-### 🏝️ [Notch](https://github.com/Jaswanth1902/Notch) — Windows 11 Dynamic Island & Ambient HUD
-*A bezel-flush status HUD that doesn't steal focus.*
-- Background Electron widgets eat 200MB+ of RAM just to display a few status badges.
-- Built in native C#, WPF, and PowerShell with global hotkeys (`Shift+Enter`) to confirm background tasks without task switching.
-- **0.0% idle CPU**, `<25MB RAM` • C#, Win32, WPF, PowerShell • `Apache 2.0`
+### 🏛️ Flagship Architecture & Core Systems
 
-### 🗺️ [Cartograph](https://github.com/Jaswanth1902/Omnia-codebase-memory) — Fast AST Codebase Mapmaker & MCP Server
-*Give coding agents an instant structural map instead of grepping thousands of lines.*
-- AI coding assistants burn through context windows and generate hallucinated imports when reading raw files blindly.
-- An MCP server that parses code into deterministic AST symbol graphs with SQLite WAL caching.
-- **<10ms** symbol lookup, cuts agent context token burn by **>90%** • Python 3.10+, AST, MCP Protocol, SQLite • `Apache 2.0`
-
-### ⚡ [DWEL](https://github.com/Jaswanth1902/dwel) — Loop Detector for AI Coding Agents
-*Catch non-progressing agent loops before they drain API credits.*
-- Autonomous agents often get trapped in retry cycles, repeating failing tool calls until context runs out.
-- Hashes actions and models execution history as a directed graph to detect back-edges and cycles in real time.
-- **<1ms** cycle fingerprinting, saves up to **42%** of token budgets • Python 3.10+, DAG Trajectory Engine • `Apache 2.0`
-
-### 🛠️ [SkillForge](https://github.com/Jaswanth1902/SkillForge) — AI Agent Skill Leveling & Universal Taxonomy Engine
-*Quantify agent capability maturity from raw prompts to deterministic execution pipelines.*
-- AI skills and prompts lack standardized leveling criteria, leading to silent drift, hallucinated schemas, and uncalibrated autonomy.
-- Universal parser (Antigravity, Claude, OpenAI, Cursor) classifying skills across a 10-domain ontology and scoring them against a 5-tier maturity rubric (Novice to Autonomous Pipeline).
-- **<15ms** multi-framework AST scan, **0 third-party dependencies**, automated level-up scaffold generator • Python 3.10+, AST, Standard Library • `MIT`
-
-### 🔒 [mem-shred](https://github.com/Jaswanth1902/mem-shred) — Compiler-Safe RAM Zeroization
-*Wipe sensitive keys and credentials from memory without compilers optimizing the wipe away.*
-- Standard `free()`, `delete`, or `memset()` calls are frequently stripped by modern compilers via Dead Store Elimination.
-- Header-only C++20 library and Python module enforcing hardware memory barriers and 3-pass DoD 5220.22-M overwrites.
-- **0.08 µs** cache-line purge, zero forensic plaintext leakage • C++20 Header-Only, Python ctypes • `Apache 2.0`
-
-### ⚡ [InstaFlow](https://github.com/Jaswanth1902/InstaFlow) — Local-First Instagram DM Automation
-*Send links and automate DM leads without third-party SaaS subscriptions.*
-- Commercial tools like ManyChat cost $50+/month and require full cloud access tokens just to send automated links.
-- Zero-dependency Python CLI and direct API agent with sub-16ms dispatch and an interactive terminal simulator.
-- **<16ms** message dispatch, `<25MB RAM`, $0 SaaS fees • Python 3.10+, Direct Web API • `Apache 2.0`
-
-### 🧠 [Profiler](https://github.com/Jaswanth1902/Profiler) — Focus & Session Intent Engine
-*Prime AI coding agents with your actual working context instead of starting from scratch.*
-- Task lists fall out of date within 48 hours, and coding agents have zero idea what you were just working on or what broke.
-- Merges active window pulses with recent session log mining to produce an instant context brief.
-- **<0.5ms** pulse merge, streams session logs in **<12ms**, emits a **<80 token** prompt prime • Python stdlib, Win32 ctypes • `Apache 2.0`
-
-### 🛡️ [Aegis-AST](https://github.com/Jaswanth1902/Aegis-AST) — Sub-Second Python AST Security & Secret Linter
-*Catch leaked credentials and SQL injections without waiting minutes for heavy SAST containers.*
-- SAST tools like Bandit and Semgrep require heavy setups, take 3–8 seconds, and regex scanners drown in false positives.
-- Pure Python standard library scanner with Shannon entropy testing ($H \ge 3.2$) to verify cryptographic randomness and AST grammar trees to isolate real SQL injections.
-- **~0.15s** scan per 10k LOC, **0 dependencies** • Python 3.9+, AST, stdlib • `Apache 2.0`
-
----
-
-## At a Glance
-
-| Project | What It Solves | Key Number | Tech |
-| :--- | :--- | :--- | :--- |
-| [Notch](https://github.com/Jaswanth1902/Notch) | Ambient HUD without focus stealing | 0.0% idle CPU • <25MB RAM | C#, WPF, Win32 |
-| [Cartograph](https://github.com/Jaswanth1902/Omnia-codebase-memory) | Instant AST codebase symbol indexer | <10ms lookup • >90% token cut | Python, AST, MCP |
-| [DWEL](https://github.com/Jaswanth1902/dwel) | Traps infinite agent execution loops | <1ms check • 42% token cut | Python, Graph Trajectory |
-| [SkillForge](https://github.com/Jaswanth1902/SkillForge) | 5-tier skill leveling & universal taxonomy engine | <15ms scan • 0 dependencies | Python, AST, stdlib |
-| [mem-shred](https://github.com/Jaswanth1902/mem-shred) | Compiler-safe RAM credential wipe | 0.08 µs purge • 0 leakage | C++20, ctypes |
-| [InstaFlow](https://github.com/Jaswanth1902/InstaFlow) | Local-first Instagram DM lead runner | <16ms dispatch • $0 SaaS fees | Python, Direct API |
-| [Profiler](https://github.com/Jaswanth1902/Profiler) | Derives context prime from session logs | <80 tokens • <0.5ms merge | Python, Win32 |
-| [Aegis-AST](https://github.com/Jaswanth1902/Aegis-AST) | Sub-second AST security & secret linter | ~0.15s scan • 0 dependencies | Python, AST, stdlib |
-
----
-
-## Other Projects
-
-| Project | Description | Stack |
+| System | Domain & Architecture | Key Operational Metric |
 | :--- | :--- | :--- |
-| [Academic-ideation-platform](https://github.com/Jaswanth1902/-Academic-ideation-platform) | Research citation graph explorer powered by local Ollama models | React, Vite, Python, Ollama |
-| [Autism_Screening_Agent](https://github.com/Jaswanth1902/Autism_Screening_Agent) | Clinical screening questionnaire with SHAP explainability trees | Streamlit, Gemini API, ReportLab |
-| [DAA_EL](https://github.com/Jaswanth1902/DAA_EL) | In-browser Delaunay image triangulation with 3D OBJ export | Vanilla JS, Web Workers, Canvas |
-| [Hospital-Database](https://github.com/Jaswanth1902/Hospital-Database) | 3NF relational clinical schema with ACID transaction isolation | PostgreSQL, Node.js, Express |
-| [Queue-Drop](https://github.com/Jaswanth1902/Queue-Drop) | Token-bucket rate limiter with dead-letter queue isolation | Python, AsyncIO |
-| [Z_Forge](https://github.com/Jaswanth1902/Z_Forge) | Dual C99 and Python LZW compression algorithm profiler | C99, Python, ctypes |
+| **[🏝️ Notch](https://github.com/Jaswanth1902/Notch)** | Spatial Dynamic Island HUD for Windows 11 | **60 FPS** • <40MB RAM • Zero Focus Theft |
+| **[🧠 OMNIA](https://github.com/Jaswanth1902/Omnia-codebase-memory)** | AST Codebase Memory MCP Server for Claude & Cursor | **94.1%** Context Token Reduction |
+| **[🛡️ Aegis-AST](https://github.com/Jaswanth1902/Aegis-AST)** | Zero-Dependency Python Security & Secret Linter | **<42ms** Scan Time • Pure Stdlib |
+| **[🔊 AcuDiag](https://github.com/Jaswanth1902/AcuDiag)** | Smartphone Acoustic Fault Diagnostics for Industrial Mechanics | **FFT + Welch PSD** Harmonic Engine |
+| **[🎓 Academic Ideation](https://github.com/Jaswanth1902/Academic-Ideation-Platform)** | Multi-Model Academic Research & Grant Proposal Generator | **Full-Stack** React + FastAPI |
+| **[🛑 DWEL](https://github.com/Jaswanth1902/dwel)** | Infinite-Loop Circuit Breaker for AI Agent Trajectories | **<0.5ms** Cycle Interception |
+| **[⚡ InstaFlow](https://github.com/Jaswanth1902/InstaFlow)** | Self-Hosted Autonomous Instagram Growth Engine | **SQLite WAL** • Zero Monthly Fees |
+| **[🛡️ mem-shred](https://github.com/Jaswanth1902/mem-shred)** | C++20 Header-Only Memory Sanitizer & Compiler Barrier | **Guaranteed** Zeroization under `-O3` |
 
 ---
 
-## Engineering Rules of Thumb
-
-- **Standard library first**: Zero third-party dependencies when language primitives do the job.
-- **Low memory ceilings**: Keep background processes under 25MB RAM.
-- **Local and private**: No sending local context or credentials to unnecessary cloud backends.
-- **Real benchmarks over marketing**: Measure latencies in microseconds and milliseconds, not vague adjectives.
-
----
-
-## Getting in Touch
-
-- **Email**: [jaswanthreddy1537@gmail.com](mailto:jaswanthreddy1537@gmail.com)
-- **LinkedIn**: [linkedin.com/in/kannali-sai-jaswanth-reddy-aa3678337](https://www.linkedin.com/in/kannali-sai-jaswanth-reddy-aa3678337/)
-- **GitHub**: [github.com/Jaswanth1902](https://github.com/Jaswanth1902)
+### 📐 Engineering Principles
+1. **Zero-Dependency Portability**: Leverage standard libraries (`ast`, Win32 API, SQLite) to eliminate brittle dependency chains.
+2. **Sub-50ms Execution Budgets**: Developer tooling must operate instantaneously within pre-commit hooks and real-time desktop overlays.
+3. **Local-First & Air-Gapped Security**: Software runs locally on device with zero unexpected cloud telemetry or privacy exfiltration.
